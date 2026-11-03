@@ -1,0 +1,343 @@
+# Research Contributions and Research Gaps in Blockchain-Based Herbal Medicine Supply Chain Traceability
+
+Based on the seven papers, the research landscape shows a progression from the conceptual application of blockchain in botanical supply chains (2019) towards integrated traceability platforms using IoT, IPFS, spectroscopy, machine learning, and automated verification (2020–2026).
+
+The key research opportunity is that existing studies primarily focus on recording and tracking supply-chain information, while ensuring the actual authenticity, chemical quality, regulatory compliance, and sustainability of medicinal herbs remains a significant challenge.
+
+The following analysis identifies the contributions and research gaps of each paper.
+
+## 1. Research contributions and gaps: Paper-wise analysis
+
+### 1. Booker et al. / Heinrich et al. (2019)
+
+Unblocking High-Value Botanical Value Chains: Is There a Role for Blockchain Systems?
+
+Frontiers in Pharmacology
+
+Research contributions
+
+- Introduced the potential of blockchain for improving transparency and trust in global botanical supply chains.
+- Identified applications in sustainable sourcing, provenance tracking, quality assurance, and prevention of adulteration.
+- Discussed the challenges of complex multi-herb preparations and fragmented supply chains.
+- Highlighted the potential of smart contracts to improve transactions and provide fairer economic benefits to small-scale producers.
+- Established a conceptual foundation for blockchain-based botanical traceability.
+
+Research gaps
+
+- Does not implement or experimentally validate a complete blockchain-based traceability system.
+- Does not integrate automated plant species identification or chemical composition verification.
+- Does not provide a standardized data model for different medicinal herbs and supply-chain participants.
+- Does not investigate real-time environmental monitoring during transportation and storage.
+- Does not quantitatively evaluate blockchain performance, scalability, transaction costs, or adoption barriers.
+
+Frontiers
+
++1
+
+### 2. Shi et al. (2020)
+
+Design and Development of Quality Traceability System for Circulation of Chinese Herbal Medicine Based on Blockchain and NB-IoT
+
+Chinese Journal of Chinese Materia Medica
+
+Research contributions
+
+- Proposed a blockchain and NB-IoT-based traceability architecture for Chinese medicinal materials.
+- Aligned the system with Good Supply Practice (GSP) requirements.
+- Used NB-IoT for low-power, wide-area data collection and transmission.
+- Supported information collection, verification, and tracking throughout medicinal-material circulation.
+- Included distributors, regulatory authorities, and consumers as system participants.
+- Proposed third-party validation using connected sensing equipment.
+
+Research gaps
+
+- Focuses mainly on circulation traceability rather than comprehensive authentication of the medicinal plant itself.
+- Does not establish a comprehensive machine-learning-based species identification mechanism.
+- Limited integration of laboratory chemical testing and automated adulteration detection.
+- Does not fully address the reliability of information entered by individual supply-chain participants.
+- Requires further evaluation of real-world deployment, scalability, interoperability, and implementation costs.
+
+PubMed
+
+### 3. Januszek et al. (2021)
+
+Blockchain for Product Authenticity in the Cannabis Supply Chain
+
+Springer, APMS 2021 conference proceedings
+
+Research contributions
+
+- Investigated blockchain for end-to-end product authenticity in the cannabis supply chain.
+- Demonstrated the importance of integrating blockchain with supplementary technologies.
+- Identified the limitations of blockchain in verifying the physical product associated with a digital record.
+- Proposed combining blockchain with IoT, nuclear magnetic resonance (NMR)-based screening, and communication standards.
+- Established that digital traceability alone cannot guarantee physical product authenticity.
+
+Research gaps
+
+- The proposed approach is not a complete, experimentally validated herbal-medicine authentication platform.
+- Requires further development of automated physical-product verification.
+- Does not establish a generalized authentication framework applicable to different medicinal plant species.
+- Does not comprehensively integrate cultivation conditions, geographical origin, harvesting, processing, and chemical quality.
+- Requires evaluation of the cost and feasibility of advanced analytical technologies for small-scale herbal producers.
+
+Springer Nature Link
+
++1
+
+### 4. Akram et al. (2024)
+
+Blockchain Technology: A Potential Tool for the Management of Pharma Supply Chain
+
+Research in Social and Administrative Pharmacy
+
+Research contributions
+
+- Reviewed blockchain applications in pharmaceutical supply-chain management.
+- Explained how distributed ledgers can improve transparency, accountability, and data integrity.
+- Examined traceability across raw-material suppliers, manufacturers, distributors, pharmacies, hospitals, and consumers.
+- Highlighted the benefits of blockchain for product recalls, regulatory oversight, and transaction tracking.
+- Established a broader pharmaceutical framework for end-to-end traceability.
+
+Research gaps
+
+- Primarily addresses pharmaceutical products rather than the specific challenges of medicinal plants.
+- Does not adequately address botanical species diversity and natural chemical variability.
+- Does not integrate plant identification, geographical authentication, or phytochemical profiling.
+- Does not provide a specialized solution for traditional herbal medicine supply chains.
+- Requires adaptation to the regulatory and operational requirements of traditional medicine systems.
+
+PubMed
+
++1
+
+### 5. Feng et al. (2024 online / 2025 publication)
+
+Application of Spectroscopic Technology with Machine Learning in Chinese Herbs from Seeds to Medicinal Materials: The Case of Genus Paris
+
+Journal of Pharmaceutical Analysis, 2025, 15(2)
+
+Research contributions
+
+- Reviewed spectroscopy and machine learning for medicinal-herb quality assessment.
+- Examined identification of germplasm, growth years, cultivars, and geographical origins.
+- Discussed the application of UV-Vis, infrared, Raman, NMR, and other spectroscopic methods.
+- Investigated quality monitoring from seeds through cultivation and processing.
+- Proposed combining spectral information, machine learning, and blockchain to improve herbal traceability.
+
+Research gaps
+
+- Focuses on the genus Paris, limiting direct generalization to other medicinal plant species.
+- Does not implement a complete blockchain-integrated spectroscopy and machine-learning system.
+- Does not establish a unified database linking spectral fingerprints with blockchain batch records.
+- Requires further validation of machine-learning models using larger, geographically diverse datasets.
+- Does not demonstrate real-time automated authentication across all supply-chain stages.
+
+ScienceDirect
+
++2
+
+### 6. Han et al. (2025)
+
+Blockchain Technology in Herbal Medicines: Applications, Trends, and Prospects
+
+Journal of Applied Research on Medicinal and Aromatic Plants
+
+Research contributions
+
+- Reviewed blockchain applications and emerging trends in herbal-medicine supply chains.
+- Examined challenges associated with information fragmentation, counterfeiting, and limited transparency.
+- Analyzed the potential of blockchain to improve information security and supply-chain traceability.
+- Designed a conceptual blockchain-based traceability system for herbal medicines.
+- Identified opportunities for wider integration of information technologies into herbal-medicine management.
+
+Research gaps
+
+- The proposed framework requires further practical implementation and validation.
+- Does not comprehensively integrate physical authentication and chemical quality verification.
+- Limited empirical evidence concerning large-scale adoption in real herbal supply chains.
+- Does not fully resolve interoperability between different stakeholders and existing information systems.
+- Requires further investigation of governance, data ownership, privacy, and operational costs.
+
+ScienceDirect
+
+### 7. Sudha et al. (2026)
+
+Bio Trace – A Blockchain and IPFS Based Traceability Platform for Secure Ayurvedic Herb Supply Chains
+
+International Journal of Latest Technology in Engineering, Management & Applied Science
+
+Research contributions
+
+- Proposed BioTrace, combining Hyperledger Fabric and IPFS for Ayurvedic herb traceability.
+- Introduced role-based access control for supply-chain participants.
+- Incorporated geo-fencing and seasonal validation to support cultivation and harvesting verification.
+- Included species verification and laboratory quality metrics in the traceability framework.
+- Proposed QR-code-based consumer verification.
+- Addressed traceability from harvesting to consumer delivery.
+
+Research gaps
+
+- Requires independent evaluation of the accuracy and reliability of species verification.
+- Needs validation of geo-fencing and seasonal rules across different medicinal plant species and geographical regions.
+- Requires integration with standardized laboratory testing and automated adulteration detection.
+- Needs performance evaluation under large-scale, multi-stakeholder supply-chain conditions.
+- Requires empirical assessment of data authenticity, sensor reliability, and the accuracy of information submitted by producers.
+- The effectiveness of the platform in actual Ayurvedic supply chains needs to be established through field deployment.
+
+IJLTEMAS
+
++2
+
+Bibliographic clarification: The first paper's first author is Michael Heinrich, not Anthony Booker. The spectroscopy review appeared online in September 2024 but was published in the February 2025 journal issue. These details should be corrected in your reference list.
+
+## 2. Consolidated research gaps across all seven papers
+
+Comparing the papers reveals the following major research gaps.
+
+| No. | Identified research gap | Explanation |
+| --- | --- | --- |
+| G1 | Lack of physical authentication | Blockchain stores records but cannot independently prove that the physical herb matches its digital identity. |
+| G2 | Limited AI/ML integration | Existing blockchain systems do not comprehensively integrate machine learning for medicinal plant species identification and adulteration detection. |
+| G3 | Lack of chemical quality verification | Laboratory results and spectral fingerprints are not consistently linked to individual blockchain batches. |
+| G4 | Incomplete end-to-end traceability | Some approaches emphasize circulation or harvesting without fully connecting cultivation, collection, processing, storage, distribution, and consumption. |
+| G5 | Lack of standardized data integration | Different stakeholders use different formats, databases, quality parameters, and identification methods. |
+| G6 | Limited real-time monitoring | Environmental conditions such as temperature, humidity, and storage conditions are not consistently monitored throughout transportation. |
+| G7 | Data reliability and authenticity | Blockchain ensures that recorded information is difficult to alter, but cannot guarantee that the original information entered is correct. |
+| G8 | Limited practical validation | Many proposed approaches lack extensive real-world deployment and quantitative performance evaluation. |
+| G9 | Scalability and interoperability | Integration among farmers, collectors, laboratories, manufacturers, distributors, and regulatory authorities remains challenging. |
+| G10 | Limited sustainability verification | There is insufficient integration of harvesting permissions, endangered-species protection, sustainable collection, and geographical compliance. |
+
+## 3. Overall research contributions of the existing literature
+
+The seven papers collectively contribute to five important research areas:
+
+1. Blockchain-based traceability
+
+Provides immutable, transparent, and auditable records of medicinal-herb transactions and supply-chain activities.
+
+Booker/Heinrich et al. (2019), Shi et al. (2020), Han et al. (2025)
+
+2. IoT-enabled monitoring
+
+Enables data collection and transmission from supply-chain activities and connected sensing devices.
+
+Shi et al. (2020), Januszek et al. (2021)
+
+3. Physical and chemical authentication
+
+Establishes the need to verify the actual botanical material using spectroscopy, NMR, and laboratory testing.
+
+Januszek et al. (2021), Feng et al. (2025)
+
+4. Pharmaceutical and herbal supply-chain management
+
+Provides frameworks for tracking medicinal products, ensuring accountability, and supporting regulatory compliance.
+
+Akram et al. (2024), Han et al. (2025)
+
+5. Decentralized Ayurvedic traceability
+
+Introduces Hyperledger Fabric, IPFS, geo-fencing, seasonal validation, laboratory metrics, and consumer-facing QR verification.
+
+Sudha et al. (2026)
+
+## 4. Potential research contributions for a new study
+
+Based on the identified gaps, the following contributions could provide a meaningful extension to existing research.
+
+| Proposed contribution | Novelty and expected benefit |
+| --- | --- |
+| Blockchain + IoT integration | Real-time monitoring of medicinal-herb supply-chain conditions. |
+| AI/ML-based species identification | Identification of medicinal plant species and detection of potential substitutions. |
+| Spectroscopy-based quality verification | Verification of chemical fingerprints and detection of adulteration or poor-quality materials. |
+| Blockchain-linked laboratory reports | Secure association of laboratory results and quality certificates with individual herb batches. |
+| Smart-contract-based validation | Automated verification of predefined harvesting, quality, and supply-chain compliance rules. |
+| IPFS-based document management | Secure off-chain storage of laboratory reports, certificates, and supporting documents. |
+| QR-based consumer verification | Enables consumers and regulators to inspect product provenance and available quality information. |
+| End-to-end supply-chain integration | Connects farmers, collectors, laboratories, manufacturers, distributors, and consumers. |
+
+## 5. Recommended research framework
+
+A promising research direction is to develop an AI- and IoT-integrated blockchain framework for authentic and quality-assured medicinal herb supply chains.
+
+## Proposed integrated framework
+
+1. Medicinal herb cultivation and collection
+
+Farmer details, species, geographical location, harvesting date and season
+
+2. IoT-based data collection
+
+Temperature, humidity, location and storage conditions
+
+3. AI/ML-based herb authentication
+
+Species identification, classification and adulteration screening
+
+4. Spectroscopy and laboratory quality verification
+
+Chemical fingerprinting, active constituent analysis and quality assessment
+
+5. Blockchain and IPFS integration
+
+Immutable batch records, laboratory report hashes, smart contracts and provenance tracking
+
+6. Consumer and regulatory verification
+
+QR-code verification, product history, quality certificates and compliance information
+
+The important distinction is that AI and laboratory testing verify the physical material, IoT monitors supply-chain conditions, and blockchain maintains the integrity and traceability of the resulting records.
+
+## 6. Suggested research problem statement
+
+The following can be adapted for your research proposal or paper.
+
+Writing
+
+### Research Problem Statement
+
+Existing blockchain-based medicinal herb traceability systems primarily emphasize secure information storage, supply-chain transparency, and transaction tracking. However, blockchain alone cannot guarantee the physical authenticity, botanical identity, and chemical quality of medicinal herbs. Furthermore, existing approaches demonstrate limited integration of artificial intelligence, IoT-based environmental monitoring, spectroscopy-based authentication, and laboratory quality verification within a unified traceability framework.
+
+Consequently, there is a need for an integrated and intelligent traceability framework that combines blockchain, IoT, machine learning, and chemical quality assessment to establish reliable end-to-end provenance and authenticity of medicinal herbs. Such a framework should enable continuous monitoring, automated verification, secure quality-data management, and transparent access to product information for all supply-chain stakeholders.
+
+## 7\. Potential research objectives
+
+1. To design a blockchain-based traceability architecture for medicinal herb supply chains.
+2. To integrate IoT sensors for real-time monitoring of environmental and storage conditions.
+3. To develop an ML-based mechanism for medicinal plant species identification and adulteration screening.
+4. To integrate spectroscopy and laboratory quality assessment with blockchain-based batch records.
+5. To implement smart contracts for automated validation of predefined quality and supply-chain compliance requirements.
+6. To evaluate the proposed framework in terms of traceability, authentication accuracy, security, scalability, and transaction performance.
+
+## 8\. Most important research gap to target
+
+If you intend to develop a research paper or PhD research topic, I would prioritize the following gap:
+
+Recommended research directionIntegration of AI/ML-based medicinal plant authentication and spectroscopy-based chemical quality verification with blockchain-enabled end-to-end traceability.
+
+Why this direction is promising:
+
+- The 2019 and 2025 reviews establish the need for better botanical traceability.
+- The 2020 study introduces blockchain and IoT integration.
+- The 2021 cannabis study highlights the limitation of relying solely on digital records for physical authenticity.
+- The 2025 spectroscopy review identifies opportunities to combine machine learning, chemical analysis, and blockchain.
+- The 2026 BioTrace platform advances Ayurvedic traceability but still leaves room for independently validated, automated physical and chemical authentication.
+
+This creates a research opportunity beyond simply developing another blockchain traceability application.
+
+One important consideration: BioTrace (2026) already proposes several features, including Hyperledger Fabric, IPFS, species verification, laboratory metrics, and QR verification. Therefore, claiming that blockchain + IPFS + QR codes alone is a novel contribution would be difficult to justify.
+
+Your novelty should instead be demonstrated through an experimentally validated integration of botanical identification, chemical quality authentication, and trustworthy batch-level traceability.
+
+## 9\. References for further examination
+
+- [Heinrich et al. (2019) – Frontiers in Pharmacology](<https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2019.00396/full?utm_source=chatgpt.com>).
+- [Shi et al. (2020) – PubMed](<https://pubmed.ncbi.nlm.nih.gov/33164413/?utm_source=chatgpt.com>).
+- [Januszek et al. (2021) – ETH Research Collection](<https://www.research-collection.ethz.ch/entities/publication/4fd3295d-847b-46b0-9427-ac76229825ed?utm_source=chatgpt.com>).
+- [Akram et al. (2024) – PubMed](<https://pubmed.ncbi.nlm.nih.gov/38423927/?utm_source=chatgpt.com>).
+- [Feng et al. (2025) – PMC](<https://pmc.ncbi.nlm.nih.gov/articles/PMC11874543/?utm_source=chatgpt.com>).
+- [Han et al. (2025) – ScienceDirect](<https://www.sciencedirect.com/science/article/pii/S2214786125000257?utm_source=chatgpt.com>).
+- [Sudha et al. (2026) – BioTrace](<https://www.ijltemas.in/submission/online/article/view/4711?utm_source=chatgpt.com>).
+
+My recommendation: Structure your literature review around three major research dimensions: (1) blockchain-enabled supply-chain traceability, (2) AI/ML and spectroscopy-based physical authentication, and (3) integrated intelligent quality assurance. This will help you establish a clear research gap and justify the proposed system architecture.
